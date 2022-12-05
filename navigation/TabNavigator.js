@@ -38,9 +38,9 @@ export default class BottomTabNavigator extends Component {
                 screenOptions={({ route }) => ({
                     tabBarIcon: ({ focused, color, size }) => {
                         let iconName;
-                        if (route.name === "Feed") {
+                        if (route.name === "Ínicio") {
                             iconName = focused ? "home" : "home-outline";
-                        } else if (route.name === "CreatePost") {
+                        } else if (route.name === "CrearPubliacion") {
                             iconName = focused ? "add-circle" : "add-circle-outline";
                         }
                         return (
@@ -56,8 +56,8 @@ export default class BottomTabNavigator extends Component {
                 activeColor={"#ee8249"}
                 inactiveColor={"gray"}
             >
-                <Tab.Screen name="Feed" component={Feed} />
-                <Tab.Screen name="CreatePost" component={CreatePost} />
+                <Tab.Screen name="Ínicio" component={Feed} />
+                <Tab.Screen name="CrearPublicacion" component={CreatePost} />
             </Tab.Navigator>
         );
     }
