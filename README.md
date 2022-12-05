@@ -1,2 +1,2 @@
-# spectagram-stage-7
-project solution for c87
+# spectagram-etapa-7
+solución del proyecto de la c87
