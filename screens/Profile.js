@@ -111,7 +111,7 @@ export default class Profile extends Component {
                                     : styles.themeText
                             }
                         >
-                            Dark Theme
+                            Tema oscuro
                   </Text>
 
                         <Switch
