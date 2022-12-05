@@ -62,7 +62,7 @@ export default class CreatePost extends Component {
                         ></Image>
                     </View>
                     <View style={styles.appTitleTextContainer}>
-                        <Text style={this.state.light_theme ? styles.appTitleTextLight : styles.appTitleText}>New Post</Text>
+                        <Text style={this.state.light_theme ? styles.appTitleTextLight : styles.appTitleText}>Nueva publicación</Text>
                     </View>
                 </View>
                 <View style={styles.fieldsContainer}>
