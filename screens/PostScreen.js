@@ -41,7 +41,7 @@ export default class PostScreen extends Component {
 
     render() {
         if (!this.props.route.params) {
-            this.props.navigation.navigate("Home");
+            this.props.navigation.navigate("Inicio");
         } else {
             return (
                 <View style={this.state.light_theme ? styles.containerLight : styles.container}>
@@ -79,7 +79,7 @@ export default class PostScreen extends Component {
                             <View style={styles.actionContainer}>
                                 <View style={styles.likeButton}>
                                     <Ionicons name={"heart"} size={RFValue(30)} color={"white"} />
-                                    <Text style={styles.likeText}>12k</Text>
+                                    <Text style={styles.likeText}>12m</Text>
                                 </View>
                             </View>
                         </ScrollView>
